@@ -1,2 +1,1 @@
-# website
-Project Luna's website.
+# a work in progress...
