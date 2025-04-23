@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    font-family: 'Tahoma', sans-serif;
+}
+
+body {
+    padding: 10px;
+}
+
+.header {
+    padding-bottom: 4px;
+}
+
+.header-img {
+    width: 250px;
+}
+
+.footer {
+    padding-top: 4px;
+    font-size: 12px;
+    opacity: 50%;
+}
