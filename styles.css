@@ -1,22 +1,151 @@
+@font-face {
+    font-family: "Franklin Gothic Medium";
+    src: url("Assets/Fonts/fgm.ttf") format("truetype");
+}
+
 * {
     margin: 0;
-    font-family: 'Tahoma', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial, sans-serif;
 }
 
-body {
-    padding: 10px;
+html, body {
+    height: 100%;
+    overflow-x: hidden;
 }
 
-.header {
-    padding-bottom: 4px;
+h1, h2 {
+    font-family: "Franklin Gothic Medium";
+    letter-spacing: -1px;
+    margin-bottom: 0.5rem;
 }
 
-.header-img {
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #0066CC;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    appearance: button;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.content-wrapper {
+    display: flex;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1;
+}
+
+.actual-content {
+    margin-left: 20px;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(to right, #8AA7F3 0%, #698FEB 35%, #698FEB 100%);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.info-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 0 5px;
+}
+
+.lgwm-nav {
     width: 250px;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
 }
 
-.footer {
-    padding-top: 4px;
-    font-size: 12px;
-    opacity: 50%;
+.author-img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.navbar-elements {
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 20px;
+    padding: 0 5px;
+    background-color: #698FEB;
+}
+
+.navbar-elements a {
+    color: white;
+    font-size: 0.65rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 160px;
+    padding: 10px;
+    background-color: #F1F1F1;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 0.7rem;
+    min-height: calc(100vh - 80px);
+}
+
+.news-board {
+    padding: 3px 0 0 20px;
+}
+
+.header-content {
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+.release-date {
+    font-size: 1.25rem;
+    font-family: "Franklin Gothic Medium";
+}
+
+.description {
+    font-size: 0.9375rem;
+    margin-bottom: 5px;
+}
+
+.faq {
+    padding-left: 13px;
+    margin-bottom: 1rem;
+}
+
+.start-header {
+    padding-top: 12px;
+    padding: 0 !important;
+}
+
+.ss-row {
+    padding-bottom: 12px;
+    margin-bottom: 1rem;
+}
+
+.ss-row img {
+    width: 368px;
+    max-width: 100%;
+    height: auto;
+}
+
+.credit-header {
+    padding-top: 10px;
 }
